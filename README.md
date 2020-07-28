@@ -12,7 +12,7 @@ urlFragment: "active-directory-dotnet-external-identities-experian-identity-veri
 
 Azure Active Directory (Azure AD) External Identities enable you to provide [self-service sign-up](https://docs.microsoft.com/azure/active-directory/b2b/self-service-sign-up-overview) for external users so that collaboration is seamless and end-user friendly. [API connectors](https://docs.microsoft.com/azure/active-directory/b2b/api-connectors-overview) enable you to leverage web APIs to integrate those self-service sign-up flows with external cloud systems.
 
-Verifying a user's identity can be critical to securing an application from fraudulent and malicious actors and confidently allowing self-service sign-up. To accomplish this, you can use Experian's identity verification services including ID verification, Fraud prevention, Compliance, and other solutions.
+Verifying a user's identity can be critical to securing an application from fraudulent and malicious actors and confidently allowing self-service sign-up. To accomplish this, you can use Experian's identity services including continuous and dynamic authentication, fraud risk analytics and identity verification capabilities  through the Experian CrossCore platform.
 
 This integration asks the external user multiple details using a self-service sign-up and uses Experian to determine whether the user should be allowed to successfully sign-up or not. The following attributes are used in making a pass/fail decision:
 
@@ -53,7 +53,7 @@ The Experian integration is comprised of the following components:
 
 ## Create an Experian account
 
-When you are ready to get an Experian account, sign up using [this]https://www.experian.com/request-a-demo/microsoft-integration-signup/) web form.
+When you are ready to get an Experian account, sign up using [this](https://www.experian.com/decision-analytics/account-opening-fraud/microsoft-integration) web form.
 
 ## Deploy the API
 
@@ -99,7 +99,6 @@ When creating the user flow, the following must be selected under **User Attribu
 
 - PhoneNumber
 - MiddleName
-- Email Address
 - Given Name
 - Postal Code
 - Street Address
