@@ -17,7 +17,7 @@ Verifying a user's identity can be critical to securing an application from frau
 This integration asks the external user multiple details using a self-service sign-up and uses Experian to determine whether the user should be allowed to successfully sign-up or not. The following attributes are used in making a pass/fail decision:
 
 - Given Name
-- MiddleName`
+- MiddleName
 - Surname
 - Street Address
 - City
@@ -119,17 +119,6 @@ Identities self-service sign-up, [create an API connector](https://docs.microsof
 - **Endpoint URL**: Use the URL created when publishing the API service.
 - **Username**: Username defined in the API configuration above (BasicAuth:ApiUsername)
 - **Password**: Password defined in the API configuration above (BasicAuth:ApiPassword)
-- **Claims to Send**:
-    - PhoneNumber
-    - MiddleName
-    - Email Address
-    - Given Name
-    - Postal Code
-    - Street Address
-    - State/Province
-    - Surname
-    - City
-    - Country/Region
 
 <!-- The API connector configuration should look like the following:
 
